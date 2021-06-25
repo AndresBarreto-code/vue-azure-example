@@ -5,10 +5,14 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "aws-deploy": "node ./automate/awsdeploy.js",
+    "test": "aws-abg"
   },
   "dependencies": {
+    "aws-abg": "^1.0.2",
     "core-js": "^3.6.5",
+    "dotenv": "^10.0.0",
     "vue": "^3.0.0"
   },
   "devDependencies": {

@@ -1,0 +1,18 @@
+{
+  "dev":  {
+    "distribution_id": "E3KSPKA02KBB9K",
+    "aws_s3": "canastto/admin/dev"
+  },
+  "qa": {
+    "distribution_id": "E2JIKBJO218IMH",
+    "aws_s3": "canastto/admin/qa"
+  },
+  "preprod": {
+    "distribution_id": "E1597469FFS131",
+    "aws_s3": "canastto/admin/preprod"
+  },
+  "production": {
+    "distribution_id": "E2XKL5VXJGS4Y8",
+    "aws_s3": "canastto/admin/production"
+  }
+}
